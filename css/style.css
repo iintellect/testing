@@ -56,6 +56,15 @@ header .navbar-default {
   margin: 0;
 }
 
+header .navbar-default {
+  padding-top: 87px;
+  padding-bottom: 74px;
+  background: #193771;
+  border-color: transparent;
+  border: none;
+  border-radius: 0;
+  margin: 0;
+}
 header .navbar-default .navbar-nav > li > a:hover, .header .navbar-default .navbar-nav > li > a:focus {
   color: #ffffff;
 }
