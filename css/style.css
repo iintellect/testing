@@ -1,0 +1,252 @@
+
+@font-face {
+  font-family: Proxima-Nova-Bold;
+  src: url(../fonts/Proxima-Nova-Bold.otf); }
+@font-face {
+  font-family: Proxima-Nova-Regular;
+  src: url(../fonts/Proxima-Nova-Regular.otf); }
+@font-face {
+  font-family: Proxima-Nova-Light-Italic;
+  src: url(../fonts/Proxima-Nova-Light-Italic.otf); }
+@font-face {
+  font-family: Proxima-Nova-Semibold;
+  src: url(../fonts/Proxima-Nova-Semibold.otf); }
+body {
+  margin: 0;
+  line-height: inherit;
+}
+
+.m-0 {
+  margin: 0 !important; }
+
+.p-0 {
+  padding: 0 !important; }
+.w-100{
+  width: 100%!important;
+}
+.d-flex{
+  display: flex;
+}
+a:hover, input:hover, a:focus {
+  outline: 0;
+  text-decoration: none; }
+
+html, div, span, applet, object, iframe, .error-comment, .panel-title, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  border: 0;
+  text-decoration: none;
+  font-weight: inherit;
+  list-style-type: none; }
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1270px;
+  }
+}
+
+/*** header styling ***/
+
+
+header .navbar-default {
+  padding-top: 87px;
+  padding-bottom: 74px;
+  background: #193771;
+  border-color: transparent;
+  border: none;
+  border-radius: 0;
+  margin: 0;
+}
+
+header .navbar-default .navbar-nav > li > a:hover, .header .navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+}
+
+header .navbar-default .navbar-nav > li > a {
+  font-family: Proxima-Nova-Bold;
+  font-size: 14px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 10px 23px;
+  padding: 0;
+  text-align: center;
+}
+
+header .navbar-default .navbar-nav > li:last-child a {
+  margin-right: 10px;
+}
+
+header .container-1 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+header .content {
+  text-align: center;
+  transform: translateY(50%);
+  position: absolute;
+  top: 228px;
+  line-height: 48px;
+}
+
+header .content p {
+  font-family: Proxima-Nova-Regular;
+  font-size: 30px;
+  color: #ffffff;
+  margin: 0;
+}
+
+header .content .buttons {
+  margin-left: 14px;
+  margin-top: 37px;
+  margin-bottom: 16px;
+}
+
+header .content .buttons .btn {
+  font-family: Proxima-Nova-Bold;
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-right: 14px;
+  width: 172px;
+  min-height: 51px;
+  border: none;
+  border-radius: 40px;
+  background-image: -moz-linear-gradient(30deg, #0e84a0 0%, #54c5c3 100%);
+  background-image: -webkit-linear-gradient(30deg, #0e84a0 0%, #54c5c3 100%);
+  background-image: -ms-linear-gradient(30deg, #0e84a0 0%, #54c5c3 100%);
+  box-shadow: inset 0px 1px 14px 0px rgba(141, 141, 141, 0.75);
+  z-index: 200;
+}
+
+header .content .btn:active, .header .content .btn:focus {
+  outline: none;
+  background-image: -webkit-linear-gradient(30deg, #0e84a0 0%, #54c5c3 100%);
+}
+
+header .content .fa-angle-down {
+  font-size: 86px;
+  color: #ffffff;
+}
+
+/*** header styling-end ***/
+
+/*** section news styling ***/
+.news{
+  background: #f3f7fc;
+}
+.news .news-heading h1{
+  font-family: Proxima-Nova-Bold;
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 44px;
+}
+
+.news .image{
+  position: relative;
+}
+
+.news .image .icon{
+  position: absolute;
+  top: 38%;
+  left: 44%;
+}
+
+.news .news-content h3{
+  font-family: Proxima-Nova-Bold;
+  color: #343434;
+  margin-bottom: 0;
+}
+
+.news .news-content h4{
+  font-family: Proxima-Nova-Semibold;
+  font-size: 16px;
+  color: #737373;
+  margin-top: 5px;
+  margin-bottom: 27px;
+}
+
+
+.news .news-content p{
+  font-family: Proxima-Nova-Regular;
+  font-size: 16px;
+  color: #343434;
+}
+
+.news .news-content{
+  background: #fff;
+  padding: 20px 50px 30px 45px;
+  border: 1px solid #dedede;
+}
+.news .m-t{
+  margin-top: 51px;
+}
+.news .cards .card-content h3{
+  font-family: Proxima-Nova-Bold;
+  color: #343434;
+}
+
+
+.news .cards .card-content h4{
+  font-family: Proxima-Nova-Semibold;
+  font-size: 16px;
+  color: #737373;
+  margin-top: 5px;
+  margin-bottom: 26px;
+}
+
+.news  .cards .card-content p{
+  font-family: Proxima-Nova-Regular;
+  font-size: 16px;
+  color: #343434;
+}
+
+.news  .cards .card-content p span{
+  color: #4786ff;
+  font-family: Proxima-Nova-Bold;
+}
+
+.news  .cards .card-content{
+  padding: 21px 17px 41px 35px;
+  background: #fff;
+  border: 1px solid #dedede;
+}
+
+.btn{
+  font-family: Proxima-Nova-Bold;
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
+  border-radius: 40px;
+  background-image: -webkit-linear-gradient( 30deg, rgb(71,134,255) 0%, rgb(99,152,255) 100%);
+  border: none;
+  padding: 13px 35px;
+  margin-top: 25px;
+  box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.4);
+}
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+
+  outline-offset: -2px;
+  background-image: none;
+  outline: 0;
+  box-shadow: inset 0 0px 0px rgba(0,0,0,.125);
+  box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.4);
+  background-image: -webkit-linear-gradient( 30deg, rgb(71,134,255) 0%, rgb(99,152,255) 100%);
+  color: #fff;
+}
+
+.btn:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.set{
+  min-height: 428px;
+  height: 100%;
+}
+
+.set-pad{
+  margin-top: 44px;
+}
+
+/*** section news styling-end ***/
